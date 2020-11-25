@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansProxyPrototype", "OrleansProxyPrototype\OrleansProxyPrototype.csproj", "{9B270641-4D6A-4821-BBD0-C090DC8FC581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansProxyPrototype.GrainsInterfaces", "OrleansProxyPrototype.GrainsInterfaces\OrleansProxyPrototype.GrainsInterfaces.csproj", "{1FB8D9DB-1934-488F-BFC9-78832351CAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansProxyPrototype.Grains", "OrleansProxyPrototype.Grains\OrleansProxyPrototype.Grains.csproj", "{65F234AF-9CB7-4523-8E76-0CD62D75C406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B270641-4D6A-4821-BBD0-C090DC8FC581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B270641-4D6A-4821-BBD0-C090DC8FC581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B270641-4D6A-4821-BBD0-C090DC8FC581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B270641-4D6A-4821-BBD0-C090DC8FC581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB8D9DB-1934-488F-BFC9-78832351CAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB8D9DB-1934-488F-BFC9-78832351CAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB8D9DB-1934-488F-BFC9-78832351CAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB8D9DB-1934-488F-BFC9-78832351CAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F234AF-9CB7-4523-8E76-0CD62D75C406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F234AF-9CB7-4523-8E76-0CD62D75C406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F234AF-9CB7-4523-8E76-0CD62D75C406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F234AF-9CB7-4523-8E76-0CD62D75C406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
