@@ -14,6 +14,7 @@ namespace OrleansProxyPrototype.Controllers
             _clusterClient = clusterClient;
         }
 
+        [Route("/home/{*segments}")]
         public async Task<int> Index()
         {
             var orderNumberGenerator = _clusterClient.GetGrain<IOrderNumberGenerator>("Demo");

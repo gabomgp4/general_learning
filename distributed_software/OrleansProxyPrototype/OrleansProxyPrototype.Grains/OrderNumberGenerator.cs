@@ -20,7 +20,7 @@ namespace OrleansProxyPrototype.Grains
         public async Task<int> GenerateOrderNumber()
         {
             _currentOrderNumber++;
-            _logger.LogInformation("Generated Order Number: ");
+            _logger.LogInformation("Generated Order Number: {currentOrderNumber}", _currentOrderNumber);
             return _currentOrderNumber;
         }
     }
